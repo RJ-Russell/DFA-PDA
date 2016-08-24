@@ -1,0 +1,10 @@
+{
+  "pda_info": "PDA Type: { w # w^R | w is in {0,1}* }",
+  "input_alph": ["0","1","#"],
+  "start_variable": "S",
+  "variables": ["S"],
+  "grammar": {
+    "S": [["0","S","0"], ["1","S","1"], ["#"]]
+  }
+
+}

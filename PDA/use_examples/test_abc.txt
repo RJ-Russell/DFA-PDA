@@ -1,0 +1,110 @@
+Script started on Sat 28 Nov 2015 03:45:17 PM PST
+]0;chupacabra@yoda: ~/CS311/project2[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/project2[00m$ python2 [K[K [K3 PDAMain.py 
+
+
+
+
+
+
+            PDA Simulator
+
+            All accompanying files are located in the json_files folder (be sure to
+            include this folder in the file path).
+
+            json_files/ab.json
+            json_files/abc.json
+            json_files/wwr.json
+            json_files/a.json
+
+            To test your own file, just type in the path to where the file is located.
+
+        
+Enter file name (including the path) or enter EXIT to quit program: json_files/abc.json
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: ###
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: a#b  ## c
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: a##b c
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): a y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: a## b##c
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: a###
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: a#b#c
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: a#b#c#
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: a#c#c#
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: aaa#bb#ccccc#
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: aaa#bbb#ccccc#
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: aaa#aaa#bbb#ccc
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: abc
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: 
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: a#b#c#
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: a#b#ccc   #
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: aaaa#bbbb#ccccccccccccccccccccccccccccccccccccccc
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: aaaa#bbbb#ccccccccccccccccccccccccccccccccccccc#
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: b#c#a
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: b#a#$ ccccccc#
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }
+Enter a string to check: aaaa#bbbb     aaaaaaaa#bbbbbbbbbbbb#ccccc    #
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): n
+
+
+Try Another PDA encoding? (Y/N): n
+Shutting down PDA...
+Press <Enter> to EXIT program...
+]0;chupacabra@yoda: ~/CS311/project2[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/project2[00m$ exit
+
+Script done on Sat 28 Nov 2015 03:48:05 PM PST

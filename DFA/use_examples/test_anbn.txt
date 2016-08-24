@@ -1,0 +1,247 @@
+Script started on Wed 21 Oct 2015 11:05:32 PM PDT
+]0;chupacabra@yoda: ~/CS311/DFAProject[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/DFAProject[00m$ D[Kpu[Kython3 DFAMain.py 
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 1
+DFA type: { w | w = a^nb^n, 0 <= n <= 3}
+*** Alphabet is: {a, b, c} ***
+
+Enter test string for the DFA: ab 
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+
+q1 is NOT an ACCEPT STATE...
+
+INPUT REJECTED...
+Input is NOT in the language recognized by this DFA! :( 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 1
+DFA type: { w | w = a^nb^n, 0 <= n <= 3}
+*** Alphabet is: {a, b, c} ***
+
+Enter test string for the DFA: ab
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: b -> Transitioning: q1 ----> q4
+
+q4 is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: aabb    1
+DFA type: { w | w = a^nb^n, 0 <= n <= 3}
+*** Alphabet is: {a, b, c} ***
+
+Enter test string for the DFA: aabb
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: a -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q5
+Input: b -> Transitioning: q5 ----> q7
+
+q7 is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 1
+DFA type: { w | w = a^nb^n, 0 <= n <= 3}
+*** Alphabet is: {a, b, c} ***
+
+Enter test string for the DFA: aaabbb
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: a -> Transitioning: q1 ----> q2
+Input: a -> Transitioning: q2 ----> q3
+Input: b -> Transitioning: q3 ----> q6
+Input: b -> Transitioning: q6 ----> q8
+Input: b -> Transitioning: q8 ----> q9
+
+q9 is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: abbababababbabba
+invalid literal for int() with base 10: 'a'
+Invalid Selection. Try Again...
+
+
+*** File choice Not Valid: Try again! ***
+
+
+
+Choose a number: 1
+DFA type: { w | w = a^nb^n, 0 <= n <= 3}
+*** Alphabet is: {a, b, c} ***
+
+Enter test string for the DFA: aabbabbabba
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: a -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q5
+Input: b -> Transitioning: q5 ----> q7
+Input: a -> Transitioning: q7 ----> q12
+Input: b -> Transitioning: q12 ----> q12
+Input: b -> Transitioning: q12 ----> q12
+Input: a -> Transitioning: q12 ----> q12
+Input: b -> Transitioning: q12 ----> q12
+Input: b -> Transitioning: q12 ----> q12
+Input: a -> Transitioning: q12 ----> q12
+
+q12 is NOT an ACCEPT STATE...
+
+INPUT REJECTED...
+Input is NOT in the language recognized by this DFA! :( 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 1
+DFA type: { w | w = a^nb^n, 0 <= n <= 3}
+*** Alphabet is: {a, b, c} ***
+
+Enter test string for the DFA: aaaaaabbabbababbabbabc                      aaabbbc
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: a -> Transitioning: q1 ----> q2
+Input: a -> Transitioning: q2 ----> q3
+Input: b -> Transitioning: q3 ----> q6
+Input: b -> Transitioning: q6 ----> q8
+Input: b -> Transitioning: q8 ----> q9
+Input: c -> Transitioning: q9 ----> q11
+
+q11 is NOT an ACCEPT STATE...
+
+INPUT REJECTED...
+Input is NOT in the language recognized by this DFA! :( 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 1
+DFA type: { w | w = a^nb^n, 0 <= n <= 3}
+*** Alphabet is: {a, b, c} ***
+
+Enter test string for the DFA: aabbbababbbcss
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: a -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q5
+Input: b -> Transitioning: q5 ----> q7
+Input: b -> Transitioning: q7 ----> q12
+Input: a -> Transitioning: q12 ----> q12
+Input: b -> Transitioning: q12 ----> q12
+Input: a -> Transitioning: q12 ----> q12
+Input: b -> Transitioning: q12 ----> q12
+Input: b -> Transitioning: q12 ----> q12
+Input: b -> Transitioning: q12 ----> q12
+Input: c -> Transitioning: q12 ----> q12
+
+Symbol ' s ' is not in the alphabet set.
+
+DFA processing halted...
+
+
+Would you like to start the Machine again? (Y/N): y n
+Shutting down DFA...
+
+Press <Enter> to EXIT program...
+]0;chupacabra@yoda: ~/CS311/DFAProject[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/DFAProject[00m$ 
+Script done on Wed 21 Oct 2015 11:07:09 PM PDT

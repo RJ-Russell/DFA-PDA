@@ -1,0 +1,9 @@
+{
+  "pda_info": "PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }",
+  "input_alph": ["0", "1","#"],
+  "start_variable": "S",
+  "variables": ["S"],
+  "grammar": {
+    "S": [["1","S"],["0","S","0"], ["#"]]
+  }
+}

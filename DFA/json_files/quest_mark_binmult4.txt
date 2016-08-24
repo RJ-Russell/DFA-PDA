@@ -1,0 +1,13 @@
+{
+    "dfa_info": "DFA type: Using ! as zeros and ? as ones..Accepts on binary multiples of 4.\n*** Alphabet is: {!,?} ***",
+    "state_list": ["A","B","C","D"],
+    "alph_list": ["!","?"],
+    "transition_dict": {
+        "A": {"!":"A", "?":"B"},
+        "B": {"!":"C", "?":"D"},
+        "C": {"!":"A", "?":"B"},
+        "D": {"!":"C", "?":"D"}
+    },
+    "start_state": "A",
+    "accept_list": ["A"]
+}

@@ -1,0 +1,11 @@
+{
+	"pda_info": "PDA Type: {a^n#b^n | n > 0}",
+	"input_alph": ["a","b","#"],
+	"start_variable": "S",
+	"variables": ["S","A"],
+	"grammar": {
+		"S": [["a","A","b"]],
+		"A": [["a","A","b"], ["#"]]
+	}
+
+}

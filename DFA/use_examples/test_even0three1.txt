@@ -1,0 +1,367 @@
+Script started on Wed 21 Oct 2015 11:16:22 PM PDT
+]0;chupacabra@yoda: ~/CS311/DFAProject[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/DFAProject[00m$ python3 DFAMain.py 
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 4
+DFA type: Accepts { w | w contains even number of 0s or exactly three 1s}.
+*** Alphabet is: {1,0} ***
+
+Enter test string for the DFA: 0000    
+Initializing the Machine...
+
+Start State ----> 0
+
+0 is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 4
+DFA type: Accepts { w | w contains even number of 0s or exactly three 1s}.
+*** Alphabet is: {1,0} ***
+
+Enter test string for the DFA: 11100000    
+Initializing the Machine...
+
+Start State ----> 0
+Input: 1 -> Transitioning: 0 ----> 6
+Input: 1 -> Transitioning: 6 ----> 7
+Input: 1 -> Transitioning: 7 ----> 8
+Input: 0 -> Transitioning: 8 ----> 4
+
+4 is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 4
+DFA type: Accepts { w | w contains even number of 0s or exactly three 1s}.
+*** Alphabet is: {1,0} ***
+
+Enter test string for the DFA: 11110
+Initializing the Machine...
+
+Start State ----> 0
+Input: 1 -> Transitioning: 0 ----> 6
+Input: 1 -> Transitioning: 6 ----> 7
+Input: 1 -> Transitioning: 7 ----> 8
+Input: 1 -> Transitioning: 8 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+
+5 is NOT an ACCEPT STATE...
+
+INPUT REJECTED...
+Input is NOT in the language recognized by this DFA! :( 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 4
+DFA type: Accepts { w | w contains even number of 0s or exactly three 1s}.
+*** Alphabet is: {1,0} ***
+
+Enter test string for the DFA: 111000111001
+Initializing the Machine...
+
+Start State ----> 0
+Input: 1 -> Transitioning: 0 ----> 6
+Input: 1 -> Transitioning: 6 ----> 7
+Input: 1 -> Transitioning: 7 ----> 8
+Input: 0 -> Transitioning: 8 ----> 4
+Input: 0 -> Transitioning: 4 ----> 8
+Input: 0 -> Transitioning: 8 ----> 4
+Input: 1 -> Transitioning: 4 ----> 5
+Input: 1 -> Transitioning: 5 ----> 5
+Input: 1 -> Transitioning: 5 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 1 -> Transitioning: 5 ----> 5
+
+5 is NOT an ACCEPT STATE...
+
+INPUT REJECTED...
+Input is NOT in the language recognized by this DFA! :( 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 11  4
+DFA type: Accepts { w | w contains even number of 0s or exactly three 1s}.
+*** Alphabet is: {1,0} ***
+
+Enter test string for the DFA: 1111    000100010001
+Initializing the Machine...
+
+Start State ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 1 -> Transitioning: 1 ----> 2
+Input: 0 -> Transitioning: 2 ----> 6
+Input: 0 -> Transitioning: 6 ----> 2
+Input: 0 -> Transitioning: 2 ----> 6
+Input: 1 -> Transitioning: 6 ----> 7
+Input: 0 -> Transitioning: 7 ----> 3
+Input: 0 -> Transitioning: 3 ----> 7
+Input: 0 -> Transitioning: 7 ----> 3
+Input: 1 -> Transitioning: 3 ----> 4
+
+4 is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 4
+DFA type: Accepts { w | w contains even number of 0s or exactly three 1s}.
+*** Alphabet is: {1,0} ***
+
+Enter test string for the DFA: 00000000000000000000000000000000000000000000000000000000111
+Initializing the Machine...
+
+Start State ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 0 -> Transitioning: 0 ----> 1
+Input: 0 -> Transitioning: 1 ----> 0
+Input: 1 -> Transitioning: 0 ----> 6
+Input: 1 -> Transitioning: 6 ----> 7
+Input: 1 -> Transitioning: 7 ----> 8
+
+8 is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 4
+DFA type: Accepts { w | w contains even number of 0s or exactly three 1s}.
+*** Alphabet is: {1,0} ***
+
+Enter test string for the DFA: 1111111111111111111                   111111111100000000000000000000
+Initializing the Machine...
+
+Start State ----> 0
+Input: 1 -> Transitioning: 0 ----> 6
+Input: 1 -> Transitioning: 6 ----> 7
+Input: 1 -> Transitioning: 7 ----> 8
+Input: 1 -> Transitioning: 8 ----> 9
+Input: 1 -> Transitioning: 9 ----> 9
+Input: 1 -> Transitioning: 9 ----> 9
+Input: 1 -> Transitioning: 9 ----> 9
+Input: 1 -> Transitioning: 9 ----> 9
+Input: 1 -> Transitioning: 9 ----> 9
+Input: 1 -> Transitioning: 9 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+
+9 is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 4
+DFA type: Accepts { w | w contains even number of 0s or exactly three 1s}.
+*** Alphabet is: {1,0} ***
+
+Enter test string for the DFA: 11111111100000000000000a00000001b          4aaa   111111
+Initializing the Machine...
+
+Start State ----> 0
+Input: 1 -> Transitioning: 0 ----> 6
+Input: 1 -> Transitioning: 6 ----> 7
+Input: 1 -> Transitioning: 7 ----> 8
+Input: 1 -> Transitioning: 8 ----> 9
+Input: 1 -> Transitioning: 9 ----> 9
+Input: 1 -> Transitioning: 9 ----> 9
+Input: 1 -> Transitioning: 9 ----> 9
+Input: 1 -> Transitioning: 9 ----> 9
+Input: 1 -> Transitioning: 9 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+Input: 0 -> Transitioning: 9 ----> 5
+Input: 0 -> Transitioning: 5 ----> 9
+
+Symbol ' 4 ' is not in the alphabet set.
+
+DFA processing halted...
+
+
+Would you like to start the Machine again? (Y/N): n
+Shutting down DFA...
+
+Press <Enter> to EXIT program...
+]0;chupacabra@yoda: ~/CS311/DFAProject[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/DFAProject[00m$
+Script done on Wed 21 Oct 2015 11:18:40 PM PDT

@@ -1,0 +1,389 @@
+Script started on Wed 21 Oct 2015 11:13:39 PM PDT
+]0;chupacabra@yoda: ~/CS311/DFAProject[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/DFAProject[00m$ python3 DFAMain.py 
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 3
+DFA type: Accepts the regex (a|b)*abb.
+*** Alphabet is: {a,b} ***
+
+Enter test string for the DFA: aaaabababaa           abb
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+
+q3 is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 3
+DFA type: Accepts the regex (a|b)*abb.
+*** Alphabet is: {a,b} ***
+
+Enter test string for the DFA: aaaabbbaaababbabbabb
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+Input: b -> Transitioning: q3 ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: a -> Transitioning: q2 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+Input: a -> Transitioning: q3 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+Input: a -> Transitioning: q3 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+
+q3 is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 3
+DFA type: Accepts the regex (a|b)*abb.
+*** Alphabet is: {a,b} ***
+
+Enter test string for the DFA: 
+Initializing the Machine...
+
+Start State ----> q0
+
+q0 is NOT an ACCEPT STATE...
+
+INPUT REJECTED...
+Input is NOT in the language recognized by this DFA! :( 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 3
+DFA type: Accepts the regex (a|b)*abb.
+*** Alphabet is: {a,b} ***
+
+Enter test string for the DFA:    
+Initializing the Machine...
+
+Start State ----> q0
+
+Symbol '   ' is not in the alphabet set.
+
+DFA processing halted...
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 3
+DFA type: Accepts the regex (a|b)*abb.
+*** Alphabet is: {a,b} ***
+
+Enter test string for the DFA: abbaaabbb
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+Input: a -> Transitioning: q3 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+Input: b -> Transitioning: q3 ----> q0
+
+q0 is NOT an ACCEPT STATE...
+
+INPUT REJECTED...
+Input is NOT in the language recognized by this DFA! :( 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 3
+DFA type: Accepts the regex (a|b)*abb.
+*** Alphabet is: {a,b} ***
+
+Enter test string for the DFA: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabb
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+
+q3 is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: bbbbbbbbbbbbbbbbbbbbbbbbaa             aa
+invalid literal for int() with base 10: 'bbbbbbbbbbbbbaa'
+Invalid Selection. Try Again...
+
+
+*** File choice Not Valid: Try again! ***
+
+
+
+Choose a number: 3
+DFA type: Accepts the regex (a|b)*abb.
+*** Alphabet is: {a,b} ***
+
+Enter test string for the DFA: bbbbbbaa
+Initializing the Machine...
+
+Start State ----> q0
+Input: b -> Transitioning: q0 ----> q0
+Input: b -> Transitioning: q0 ----> q0
+Input: b -> Transitioning: q0 ----> q0
+Input: b -> Transitioning: q0 ----> q0
+Input: b -> Transitioning: q0 ----> q0
+Input: b -> Transitioning: q0 ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+
+q1 is NOT an ACCEPT STATE...
+
+INPUT REJECTED...
+Input is NOT in the language recognized by this DFA! :( 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 3
+DFA type: Accepts the regex (a|b)*abb.
+*** Alphabet is: {a,b} ***
+
+Enter test string for the DFA: aaaaaabbbbbaabbabbaaaabbs
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+Input: b -> Transitioning: q3 ----> q0
+Input: b -> Transitioning: q0 ----> q0
+Input: b -> Transitioning: q0 ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+Input: a -> Transitioning: q3 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+Input: a -> Transitioning: q3 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+
+Symbol ' s ' is not in the alphabet set.
+
+DFA processing halted...
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 3
+DFA type: Accepts the regex (a|b)*abb.
+*** Alphabet is: {a,b} ***
+
+Enter test string for the DFA: abbabbabbaabbabb
+Initializing the Machine...
+
+Start State ----> q0
+Input: a -> Transitioning: q0 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+Input: a -> Transitioning: q3 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+Input: a -> Transitioning: q3 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+Input: a -> Transitioning: q3 ----> q1
+Input: a -> Transitioning: q1 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+Input: a -> Transitioning: q3 ----> q1
+Input: b -> Transitioning: q1 ----> q2
+Input: b -> Transitioning: q2 ----> q3
+
+q3 is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): n
+Shutting down DFA...
+
+Press <Enter> to EXIT program...
+]0;chupacabra@yoda: ~/CS311/DFAProject[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/DFAProject[00m$ 
+Script done on Wed 21 Oct 2015 11:15:28 PM PDT

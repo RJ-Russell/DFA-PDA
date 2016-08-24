@@ -1,0 +1,102 @@
+Script started on Sat 28 Nov 2015 05:57:49 PM PST
+]0;chupacabra@yoda: ~/CS311/project2[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/project2[00m$ git[K[K[Kpytohn [K[K[K[Khon [K3 PDAMain.py 
+
+
+
+
+
+
+            PDA Simulator
+
+            All accompanying files are located in the json_files folder (be sure to
+            include this folder in the file path).
+
+            json_files/ab.json
+            json_files/abc.json
+            json_files/wwr.json
+            json_files/01.json
+
+            To test your own file, just type in the path to where the file is located.
+
+        
+Enter file name (including the path) or enter EXIT to quit program: json_files/01.json
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 00#01
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 00#00
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 11#00
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 11#11
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 11#
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: #
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 0011#000
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 000001001010101010#000000000000
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 0010010010010#000000000
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 010#00
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 111111111111111111111111111111111111111111110 #
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): 11111111111111111101111111111111111111111110111111111111111111111#00
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 11111111111111111111111111110111111111111111111111111111101111111111111111110#000
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 111110000#0000000000
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 0000001111000000#a00000
+Input ' a ' is not in the alphabet
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 0000111100001111000#00000000000
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 111100100#0000  1
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: {  (w | w is in {0,1}*) # (all zeros where number of 0s is equal to the number of 0s before the # symbol), ex. 010010010#000000 }
+Enter a string to check: 101010101010101010#000000000
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): n
+
+
+Try Another PDA encoding? (Y/N): n
+Shutting down PDA...
+Press <Enter> to EXIT program...
+]0;chupacabra@yoda: ~/CS311/project2[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/project2[00m$ 
+Script done on Sat 28 Nov 2015 06:00:30 PM PST

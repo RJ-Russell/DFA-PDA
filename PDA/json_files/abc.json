@@ -1,0 +1,11 @@
+{
+  "pda_info": "PDA Type: { a^i # b^j # c^k # | i = j and i,j,k > 0 }",
+  "input_alph": ["a","b", "c", "#"],
+  "start_variable": "S",
+  "variables": ["S","A","C"],
+  "grammar": {
+    "S": [["a","A","b","#","c","C"]],
+    "A": [["a","A","b"], ["#"]],
+    "C": [["c", "C"], ["#"]]
+  }
+}

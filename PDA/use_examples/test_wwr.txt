@@ -1,0 +1,85 @@
+Script started on Sat 28 Nov 2015 03:49:16 PM PST
+]0;chupacabra@yoda: ~/CS311/project2[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/project2[00m$ python3 PDAMain.py 
+
+
+
+
+
+            PDA Simulator
+
+            All accompanying files are located in the json_files folder (be sure to
+            include this folder in the file path).
+
+            json_files/ab.json
+            json_files/abc.json
+            json_files/wwr.json
+            json_files/a.json
+
+            To test your own file, just type in the path to where the file is located.
+
+        
+Enter file name (including the path) or enter EXIT to quit program: json_files/wwr.json
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: #
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): 0#1
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: 0#1
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: 000#000
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: 001100#110011
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: 00110101#10101100
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: 0011#a1100
+Input ' a ' is not in the alphabet
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: 0011  00000011111111000000001010#0101000000001111111100000000
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: 0011#1101
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: 000#0000
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: 111#1111
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: 11100111
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: #00110
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: 0
+String IS NOT the grammar!!! :)
+Run the same PDA encoding again? (Y/N): y
+PDA Type: { w # w^R | w is in {0,1}* }
+Enter a string to check: 00110#01100
+String IS in the grammar!!!
+Run the same PDA encoding again? (Y/N): n
+
+
+Try Another PDA encoding? (Y/N): n
+Shutting down PDA...
+Press <Enter> to EXIT program...
+]0;chupacabra@yoda: ~/CS311/project2[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/project2[00m$ 
+Script done on Sat 28 Nov 2015 03:51:24 PM PST

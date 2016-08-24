@@ -1,0 +1,362 @@
+Script started on Thu 22 Oct 2015 09:40:35 AM PDT
+]0;chupacabra@yoda: ~/CS311/DFAProject[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/DFAProject[00m$ python3 DFAMain.py 
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 5
+DFA type: Using ! as zeros and ? as ones..Accepts on binary multiples of 4.
+*** Alphabet is: {!,?} ***
+
+Enter test string for the DFA: 
+Initializing the Machine...
+
+Start State ----> A
+
+A is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 5
+DFA type: Using ! as zeros and ? as ones..Accepts on binary multiples of 4.
+*** Alphabet is: {!,?} ***
+
+Enter test string for the DFA: ??!!?!??!?!!
+Initializing the Machine...
+
+Start State ----> A
+Input: ? -> Transitioning: A ----> B
+Input: ? -> Transitioning: B ----> D
+Input: ! -> Transitioning: D ----> C
+Input: ! -> Transitioning: C ----> A
+Input: ? -> Transitioning: A ----> B
+Input: ! -> Transitioning: B ----> C
+Input: ? -> Transitioning: C ----> B
+Input: ? -> Transitioning: B ----> D
+Input: ! -> Transitioning: D ----> C
+Input: ? -> Transitioning: C ----> B
+Input: ! -> Transitioning: B ----> C
+Input: ! -> Transitioning: C ----> A
+
+A is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: ? 5
+DFA type: Using ! as zeros and ? as ones..Accepts on binary multiples of 4.
+*** Alphabet is: {!,?} ***
+
+Enter test string for the DFA: ?!??!?!??!
+Initializing the Machine...
+
+Start State ----> A
+Input: ? -> Transitioning: A ----> B
+Input: ! -> Transitioning: B ----> C
+Input: ? -> Transitioning: C ----> B
+Input: ? -> Transitioning: B ----> D
+Input: ! -> Transitioning: D ----> C
+Input: ? -> Transitioning: C ----> B
+Input: ! -> Transitioning: B ----> C
+Input: ? -> Transitioning: C ----> B
+Input: ? -> Transitioning: B ----> D
+Input: ! -> Transitioning: D ----> C
+
+C is NOT an ACCEPT STATE...
+
+INPUT REJECTED...
+Input is NOT in the language recognized by this DFA! :( 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 5
+DFA type: Using ! as zeros and ? as ones..Accepts on binary multiples of 4.
+*** Alphabet is: {!,?} ***
+
+Enter test string for the DFA: ?!!!
+Initializing the Machine...
+
+Start State ----> A
+Input: ? -> Transitioning: A ----> B
+Input: ! -> Transitioning: B ----> C
+Input: ! -> Transitioning: C ----> A
+Input: ! -> Transitioning: A ----> A
+
+A is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 5
+DFA type: Using ! as zeros and ? as ones..Accepts on binary multiples of 4.
+*** Alphabet is: {!,?} ***
+
+Enter test string for the DFA: ???   !!!!
+Initializing the Machine...
+
+Start State ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+
+A is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 5
+DFA type: Using ! as zeros and ? as ones..Accepts on binary multiples of 4.
+*** Alphabet is: {!,?} ***
+
+Enter test string for the DFA: !!?!!?!!
+Initializing the Machine...
+
+Start State ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ? -> Transitioning: A ----> B
+Input: ! -> Transitioning: B ----> C
+Input: ! -> Transitioning: C ----> A
+Input: ? -> Transitioning: A ----> B
+Input: ! -> Transitioning: B ----> C
+Input: ! -> Transitioning: C ----> A
+
+A is an ACCEPT STATE...
+
+INPUT ACCEPTED...
+Input IS in the language recognized by this DFA! :) 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 5
+DFA type: Using ! as zeros and ? as ones..Accepts on binary multiples of 4.
+*** Alphabet is: {!,?} ***
+
+Enter test string for the DFA: !!!!!!!!!!!!!???????????!?????????????
+Initializing the Machine...
+
+Start State ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ? -> Transitioning: A ----> B
+Input: ? -> Transitioning: B ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ! -> Transitioning: D ----> C
+Input: ? -> Transitioning: C ----> B
+Input: ? -> Transitioning: B ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+
+D is NOT an ACCEPT STATE...
+
+INPUT REJECTED...
+Input is NOT in the language recognized by this DFA! :( 
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: ! 5
+DFA type: Using ! as zeros and ? as ones..Accepts on binary multiples of 4.
+*** Alphabet is: {!,?} ***
+
+Enter test string for the DFA: !!!!!???????????????a
+Initializing the Machine...
+
+Start State ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ? -> Transitioning: A ----> B
+Input: ? -> Transitioning: B ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+
+Symbol ' a ' is not in the alphabet set.
+
+DFA processing halted...
+
+
+Would you like to start the Machine again? (Y/N): y
+
+Choose from the following list of DFAs:
+
+            1. a^nb^n, 0<= n <= 3
+            2. Binary Multiple of 5
+            3. (a|b)*abb
+            4. Even zeros or three ones
+            5. Using ! = 0, ? = 1, binary multiples of 4
+            6. EXIT
+        
+
+Choose a number: 5
+DFA type: Using ! as zeros and ? as ones..Accepts on binary multiples of 4.
+*** Alphabet is: {!,?} ***
+
+Enter test string for the DFA: !!!!!!????????????4542
+Initializing the Machine...
+
+Start State ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ! -> Transitioning: A ----> A
+Input: ? -> Transitioning: A ----> B
+Input: ? -> Transitioning: B ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+Input: ? -> Transitioning: D ----> D
+
+Symbol ' 4 ' is not in the alphabet set.
+
+DFA processing halted...
+
+
+Would you like to start the Machine again? (Y/N): n
+Shutting down DFA...
+
+Press <Enter> to EXIT program...
+]0;chupacabra@yoda: ~/CS311/DFAProject[01;36mchupacabra[01;30m@[04;37myoda[00m:[01;34m~/CS311/DFAProject[00m$ 
+Script done on Thu 22 Oct 2015 09:44:38 AM PDT
